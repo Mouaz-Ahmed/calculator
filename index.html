@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator By Mouaz</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calc-container">
+            <div id="input-div">
+                <input type="text" class="input-field" id="input" disabled>
+            </div>
+            <div class="btn-container">
+                <div class="buttons btn_g1">
+                    <button class="btn"onclick="getClear()" >&#8705</button>
+                    <button class="btn"onclick="getRoot('^')">&#8730</button>
+                    <button class="btn"onclick="mod()">&#37</button>
+                    <button class="btn"onclick="GetNum('/')">&#247</button>
+                </div>
+                <div class="buttons">
+                    <button class="btn" onclick="GetNum('7')">7</button>
+                    <button class="btn" onclick="GetNum('8')">8</button>
+                    <button class="btn" onclick="GetNum('9')">9</button>
+                    <button class="btn" onclick="GetNum('*')">&#215</button>
+                </div>
+                <div class="buttons">
+                    <button class="btn" onclick="GetNum('4')">4</button>
+                    <button class="btn" onclick="GetNum('5')">5</button>
+                    <button class="btn" onclick="GetNum('6')">6</button>
+                    <button class="btn" onclick="GetNum('-')">&#8722</button>
+                </div>
+                <div class="buttons">
+                    <button class="btn" onclick="GetNum('1')">1</button>
+                    <button class="btn" onclick="GetNum('2')">2</button>
+                    <button class="btn" onclick="GetNum('3')">3</button>
+                    <button class="btn" onclick="GetNum('+')">&#43</button>
+                </div>
+                <div class="buttons">
+                    <button class="btn" onclick="GetNum('0')">0</button>
+                    <button class="btn" onclick="GetNum('.')">&#8729</button>
+                    <button class="btn" onclick="GetNum('del')">del</button>
+                    <button class="btn" onclick="getResult()">&#61</button>
+                </div>
+                <div class="buttons">
+                    <button class="btn" onclick="sin('sin')">sin</button>
+                    <button class="btn" onclick="cos('cos')">cos</button>
+                    <button class="btn" onclick="tan('tan')">tan</button>
+                    <button class="btn" onclick="pow('')"><b>^</b></button>
+                </div>
+            </div>
+            <div class="by_mouaz">
+               <h1 class="h1">Created by Mouaz</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
